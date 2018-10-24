@@ -5,8 +5,8 @@ import Fasebook from './components/fasebook';
 
 class App extends Component {
   state = {
-    name: null,
-    picture: null
+    name: "asmaa",
+    picture: "https://png.pngtree.com/element_origin_min_pic/17/03/22/69f2ade6f76583a36167bc613e68cfaa.jpg"
   }
 
   handlerData = (dataOfFb) => {
@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Fasebook onChange={(e) => this.handlerData(e)}/>
+        
         {<Contanier picture={this.state.picture} name={this.state.name} />}
       </div>
     );
