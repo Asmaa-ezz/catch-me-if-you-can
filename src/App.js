@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <div className="App">
         <Fasebook onChange={(e) => this.handlerData(e)}/>
-        { this.state.name && <Contanier picture={this.state.picture} name={this.state.name} />}
+        {<Contanier picture={this.state.picture} name={this.state.name} />}
       </div>
     );
   }
