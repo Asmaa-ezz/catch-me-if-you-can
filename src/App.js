@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import Contanier from './components/contanier';
-import Fasebook from './components/fasebook';
 
 class App extends Component {
   state = {
